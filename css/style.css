@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Press+Start+2P&family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins&family=Press+Start+2P&family=Roboto+Condensed&display=swap");
+* {
+  font-family: "Poppins";
+}
+body {
+  background-image: url("https://i.ibb.co/59NxbHV/Decore.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+.header {
+  margin-top: 15px;
+}
+.logo {
+  margin-left: 105px;
+}
+.navMenu {
+  /* font-family: "Google Sans"; */
+  font-weight: 400;
+  font-size: 17px;
+  margin-left: 60px;
+  color: #212832;
+}
+.navDiv {
+  margin-left: 300px;
+}
+
+.homeContent {
+  margin-left: 120px;
+  margin-top: 65px;
+}
+.homeTravelor1 {
+  width: 167.29px;
+  height: 115.23px;
+  position: absolute;
+  top: 135.43px;
+  right: 508px;
+}
+.homeTravelor2 {
+  width: 137.29px;
+  height: 95.23px;
+  position: absolute;
+  top: 199.43px;
+  right: 88px;
+}
+.cardContent {
+  margin-left: 120px;
+}
+/* .homeImg {
+  margin-right: 65px;
+} */
+.homeHead {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #df6951;
+}
+.homeDetail {
+  width: 545px;
+  height: 267px;
+  font-family: Volkhov;
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 89px;
+}
+.homeDesp {
+  height: 90px;
+  width: 380px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.homeBtn {
+  height: 54px;
+  width: 153px;
+  border-radius: 9px;
+  background: #f1a501;
+  text-align: center;
+}
+.playDemo {
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.homeBtnDescp {
+  margin-top: 60px;
+}
+.category,
+.easyFast,
+.topSell {
+  margin-top: 70px;
+}
+.categoryHeading,
+.topSellHeading {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: #5e6282;
+}
+.categorySecHeading,
+.topSellSecHead {
+  font-family: Volkhov;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+  text-align: center;
+}
+.card1 {
+  width: 285px;
+  height: 314px;
+  /* margin-bottom: 10px; */
+  border: none;
+}
+.card2 {
+  width: 80%;
+  height: auto;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 10px 100px 80px rgba(0, 0, 0, 0.02);
+}
+.card-Image {
+  margin: 5px auto;
+}
+.cardDescp {
+  margin: 2px auto;
+}
+.cardTitle {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: #1e1d4c;
+}
+.cardText {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  color: #5e6282;
+}
+.specialCard1 {
+  position: relative;
+  z-index: 3;
+}
+.specialCard2 {
+  position: absolute;
+  z-index: 1;
+  bottom: -475px;
+  left: 435px;
+}
+.destDiv {
+  margin-right: 10px;
+}
+.cardMargin {
+  margin-right: 20px;
+}
+.destPlace {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 124.5%;
+  color: #5e6282;
+}
+.tripDays {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #5e6282;
+}
+.decoreWebCard {
+  position: relative;
+  z-index: 3;
+}
+.decoreWeb {
+  position: relative;
+  z-index: 1;
+  bottom: 300px;
+  left: 300px;
+}
+.esayFastCont {
+  margin-left: 110px;
+  margin-top: 140px;
+}
+.esayFastHead {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #5e6282;
+}
+.easyFastSecHeading {
+  width: 511px;
+  height: 130px;
+  font-family: Volkhov;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+}
+.easyFastImg {
+  width: 47px;
+  height: 48px;
+}
+.easyFastHeading,
+.easyFastText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 124.5%;
+  color: #5e6282;
+}
+.easyFastText {
+  width: 327px;
+  height: 40px;
+  font-weight: 400;
+}
+.easyContCard {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 124.5%;
+  letter-spacing: 0.015em;
+  color: #080809;
+}
+.easyCardText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 124.5%;
+  letter-spacing: -0.005em;
+  color: #84829a;
+}
+.onGoing {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 124.5%;
+  letter-spacing: -0.035em;
+  color: #84829a;
+}
+.mikeTaylorQuote {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #5e6282;
+  margin-left: 7px;
+}
+.mikeTaykorHead {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5e6282;
+  margin-left: 7px;
+  padding-top: 10px;
+}
+
+.mikeCard2 {
+  position: relative;
+  z-index: 3;
+}
+.mikeCard1 {
+  position: relative;
+  z-index: 1;
+  bottom: 156px;
+  left: 75px;
+}
+
+.footer {
+  margin-left: 160px;
+  margin-top: 5px;
+}
+.footer {
+  margin-top: 160px;
+}
+.subscription {
+  margin-left: 30px;
+  margin-top: 95px;
+}
+.subscriptionImg {
+  background-image: url("https://i.ibb.co/JzmVRjn/Group-78.png");
+  background-size: cover;
+  background-position: center;
+  width: 1335px;
+  height: 407px;
+}
+.subscrptDetail {
+  width: 850px;
+  height: 108px;
+  margin: 1px auto;
+}
+.subscrptText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 54px;
+  text-align: center;
+  color: #5e6282;
+}
+.subWhole {
+  width: 1000px;
+  height: 200px;
+  margin: 20px auto;
+  margin-left: 210px;
+}
+.input-with-image {
+  background-image: url("https://i.ibb.co/C5NPxz2/Group-46.png");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 40px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #39425d;
+}
+.fHead1 {
+  width: 200px;
+  height: 132px;
+}
+.fHead11 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 66px;
+  color: #181e4b;
+}
+.fText,
+.fText a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 124.5%;
+  color: #5e6282;
+  text-decoration: none;
+}
+
+.fText a {
+  font-size: 18px;
+  display: block;
+  margin: 5px;
+}
+.fHead111 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 124.5%;
+  color: #080809;
+}
+.discoverAppImg a {
+  text-decoration: none;
+}
+.rightsReserve {
+  margin: 40px auto;
+  width: 303px;
+  height: auto;
+}
+.rightReserveTxt {
+  margin: 5px auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 124.5%;
+  color: #5e6282;
+}
+@media (max-width: 767px) {
+  .navDiv {
+    margin-left: 0px;
+  }
+  .navMenu {
+    margin-left: 0px;
+  }
+  .logo {
+    margin: 0px auto;
+  }
+  .homeContent {
+    margin-left: 0px;
+  }
+  .homeHead {
+    width: 100%;
+    font-size: 14px;
+  }
+  .homeDetail {
+    width: 100%;
+    height: 100px;
+    font-family: Volkhov;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+  .homeDesp {
+    margin-top: 70px;
+  }
+  .categorySecHeading,
+  .topSellSecHead {
+    font-size: 38px;
+  }
+  .card11 {
+    margin: 1px auto;
+  }
+}
+@media (max-width: 430px) {
+  .specialCard1 {
+    margin-left: 0px;
+    position: relative;
+    bottom: 85px;
+    left: 40px;
+  }
+  .specialCard2 {
+    position: relative;
+    bottom: 158px;
+    left: 10px;
+  }
+}
